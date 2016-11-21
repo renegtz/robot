@@ -10,10 +10,7 @@ import java.awt.Color;
 import java.awt.Robot;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 
 /**
  *
@@ -28,10 +25,6 @@ public class RobotBot {
     int win[] = {51, 255, 51};
     int perder[] = {255, 102, 102};
 
-    public static WebDriver driver = null;
-    public static String usuario = "usuario";
-    public static String contra = "asd";
-    public static String url_login = "https://freebitco.in";
     public static Robot robot;
 
     public void Color() {
